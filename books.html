@@ -55,12 +55,15 @@
               <h2 class="section__title books__header--title">
                 All <span class="purple">Books</span>
               </h2>
-              <select id="filter">
-                <option value="" disable selected>Sort</option>
+              <select id="filter" onchange="filterBooks(event)">
+                <opion value="" disable selected>Sort</option>
                 <option value="LOW_TO_HIGH">Price, Low to High</option>
                 <option value="HIGH_TO_LOW">Price, High to Low</option>
                 <option value="RATINGS">Ratings</option>
               </select>
+            </div>
+            <div class="books">
+
             </div>
            </div>
         </div>
